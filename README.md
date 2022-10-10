@@ -2,7 +2,7 @@
 [Training deep learning models to work on multiple devices by cross domain learning with no additional annotations](https://www.aaojournal.org/article/S0161-6420%2822%2900749-7/fulltext)
 
 This repository contains the PyTorch implementation of GANSeg. GANSeg consists of two networks: a) a GAN and b) a supervised network. 
-GANSeg's schema is given in Figure 1b, and can be contrasted against traditional supervised learning setups in Figure 1a. ![Figure 1](https://github.com/uw-/uw-biomedical-ml/ganseg/master/Figure1.tiff)
+GANSeg's schema is given in Figure 1b, and can be contrasted against traditional supervised learning setups in Figure 1a. ![Figure 1](https://github.com/uw-/uw-biomedical-ml/ganseg/master/Figure1.png)
 For this implementation of GANSeg, we focused on applying GANSeg to cross domain segmentation to be applied to OCTs with different intensity characteristics as shown in Figure 1c. 
 Therefore the supervised network used was a [U-Net](https://arxiv.org/abs/1505.04597).
 The GAN network that was used is adapted from U-GAT-IT ([1](https://arxiv.org/abs/1907.10830), [2](https://github.com/znxlwm/UGATIT-pytorch)).
