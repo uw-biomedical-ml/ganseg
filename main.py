@@ -1,6 +1,6 @@
-from GANSeg import GANSeg
+from .GANSeg import GANSeg
 import argparse
-from utils import *
+from .utils import *
 
 """parsing and configuration"""
 
